@@ -21,7 +21,7 @@ const Homepage = () => {
       setLoading(false);
     }
 
-    // Optionally fetch fresh user data
+
     fetchUserProfile();
   }, [navigate]);
 

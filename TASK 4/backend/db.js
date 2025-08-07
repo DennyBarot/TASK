@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const MONGO_URL = 'mongodb://localhost:27017/mernlogin';
-// Change above to your MongoDB Atlas string if needed
+
 
 const connectDB = async () => {
   try {
